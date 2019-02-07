@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Reinforcement Learning Q1-1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/gridworld.py",
+            "console": "integratedTerminal",
+            "args": ["-a", "value", "-i", "100", "k", "10"]
+        },
+        {
+            "name": "Reinforcement Learning Q1-2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/gridworld.py",
+            "console": "integratedTerminal",
+            "args": ["-a", "value", "-i", "5"]
+        },
+        {
+            "name": "Autograder",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "Autograder Q1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+            "args": ["-q", "q1"]
+        },
+        {
+            "name": "Autograder Q2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+            "args": ["-q", "q2"]
+        },
+        {
+            "name": "Autograder Q3",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+            "args": ["-q", "q3"]
+        },
+        {
+            "name": "Reinforcement Learning Q4",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/gridworld.py",
+            "console": "integratedTerminal",
+            "args": ["-a", "q", "-k", "5", "m"]
+        },
+        {
+            "name": "Autograder Q4",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+            "args": ["-q", "q4"]
+        },
+        {
+            "name": "Reinforcement Learning Q4-1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/gridworld.py",
+            "console": "integratedTerminal",
+            "args": ["-a", "q", "-k", "100"]
+        },
+        {
+            "name": "Autograder Q5",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+            "args": ["-q", "q5"]
+        },
+        {
+            "name": "Autograder Q6",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+            "args": ["-q", "q6"]
+        },
+        {
+            "name": "Autograder Q7",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+            "args": ["-q", "q7"]
+        },
+        {
+            "name": "Reinforcement Learning Q8",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pacman.py",
+            "console": "integratedTerminal",
+            "args": ["-p", "ApproximateQAgent", "-x", "2000", "-n", "2010", "-l", "smallGrid"]
+        },
+        {
+            "name": "Autograder Q8",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autograder.py",
+            "console": "integratedTerminal",
+            "args": ["-q", "q8"]
+        },
+    ]
+}

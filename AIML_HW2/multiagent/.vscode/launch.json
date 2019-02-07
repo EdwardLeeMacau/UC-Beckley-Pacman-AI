@@ -1,0 +1,201 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MultiAgent",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "ReflexAgent",
+              "--frameTime",
+              "0.1"
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "MultiAgent, n=10",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "ReflexAgent",
+              "-q",
+              "-n",
+              "10"
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "QuickTest",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "ReflexAgent",
+              "--frameTime",
+              "0"
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "Mimimax, depth=4, n=10",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "MinimaxAgent",
+              "-l",
+              "minimaxClassic",
+              "-a",
+              "depth=4",
+              "-q",
+              "-n",
+              "10",
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "Mimimax, depth=3, n=10",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "MinimaxAgent",
+              "-l",
+              "trappedClassic",
+              "-a",
+              "depth=3",
+              "-q",
+              "-n",
+              "100",
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "Alpha-Beta, depth=3, n=10",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "AlphaBetaAgent",
+              "-l",
+              "smallClassic",
+              "-a",
+              "depth=3"
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "Alpha-Beta(Trapped), depth=3, n=100",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "AlphaBetaAgent",
+              "-l",
+              "trappedClassic",
+              "-a",
+              "depth=3",
+              "-q",
+              "2",
+              "-n",
+              "100"
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "ExpectimaxAgent, depth=3, n=30",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "ExpectimaxAgent",
+              "-l",
+              "trappedClassic",
+              "-a",
+              "depth=3",
+              "-q",
+              "-n",
+              "30"
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "ExpectimaxAgent(Better), n=30",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pacman.py",
+            "args": [
+              "-p",
+              "ExpectimaxAgent",
+              "-l",
+              "smallClassic",
+              "-a",
+              "evalFn=better",
+              "-n",
+              "30"
+            ],
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "Q2 Grading test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\autograder.py",
+            "args": [
+              "-q",
+              "Q2",
+              "--no-graphics",
+            ],
+            "console": "integratedTerminal",
+        }
+        {
+            "name": "Q3 Grading test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\autograder.py",
+            "args": [
+              "-q",
+              "Q3",
+              "--no-graphics",
+            ],
+            "console": "integratedTerminal",
+        }
+        {
+            "name": "Q4 Grading test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\autograder.py",
+            "args": [
+              "-q",
+              "Q4",
+              "--no-graphics",
+            ],
+            "console": "integratedTerminal",
+        }
+        {
+            "name": "Q5 Grading test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\autograder.py",
+            "args": [
+              "-q",
+              "Q5",
+              "--no-graphics",
+            ],
+            "console": "integratedTerminal",
+        }
+    ]
+}
