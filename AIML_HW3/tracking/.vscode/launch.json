@@ -1,0 +1,85 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Q1 Exact Observe 1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "integratedTerminal",
+            "args": ["-t", "test_cases/q1/1-ExactObserve"]
+        },
+        {
+            "name": "Q1 Exact Observe 2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "integratedTerminal",
+            "args": ["-t", "test_cases/q1/2-ExactObserve"]
+        },
+        {
+            "name": "Q2 Exact Elapse 1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "integratedTerminal",
+            "args": ["-t", "test_cases/q2/1-ExactElapse"]
+        },
+        {
+            "name": "Q2 Exact Elapse 2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "integratedTerminal",
+            "args": ["-t", "test_cases/q2/1-ExactElapse"]
+        },
+        {
+            "name": "Q3 GreedyBustersAgent",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/busters.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-l", "smallHunt", 
+                "-p", "GreedyBustersAgent",
+                "-n", "10",
+                "--frameTime=0"
+            ]
+        },
+        {
+            "name": "Q4 ParticleObserve",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "integratedTerminal",
+            "args": ["-t", "test_cases/q4/1-ParticleObserve"]
+        },
+        {
+            "name": "Q5 ParticleElapse",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "integratedTerminal",
+            "args": ["-t", "test_cases/q5/1-ParticleElapse"]
+        },
+        {
+            "name": "Q6 JointParticleObserve",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "integratedTerminal",
+            "args": ["-t", "test_cases/q6/1-JointParticleObserve"]
+        },
+        {
+            "name": "Q7 JointParticleObserve",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "integratedTerminal",
+            "args": ["-t", "test_cases/q7/1-JointParticleElapse"]
+        },
+    ]
+}
